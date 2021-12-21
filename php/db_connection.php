@@ -1,8 +1,8 @@
 <?php
-  $SERVER = 'localhost';
-  $USERNAME = 'root';
-  $PASSWORD = '';
-  $DB = 'pharmacy';
+  $SERVER = '127.0.0.1:51614';
+  $USERNAME = 'azure';
+  $PASSWORD = '6#vWHD_$';
+  $DB = 'localdb';
 
   @$con = mysqli_connect($SERVER, $USERNAME, $PASSWORD, $DB)
   or
